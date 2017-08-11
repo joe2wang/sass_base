@@ -1,0 +1,16 @@
+@charset "UTF-8";
+$animationDurationTime: 1s;
+$animationDelayTime: 0s;
+$animationFillMode: both;
+$animationLessLocation: '';
+@import "animated";
+@import "bounceIn";
+@import "bounceOut";
+@import "fadeIn";
+@import "fadeOut";
+@import "fadeOutBox";
+@import "fadeInBox";
+@import "fadeInUp";
+@import "rollIn";
+@import "bounceInLeft";
+@import "bounceInRight";

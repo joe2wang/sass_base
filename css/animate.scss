@@ -1,0 +1,34 @@
+@import "../scss/animate/animate";
+@import "../scss/animate/animated";
+.bounchIn{
+  @include bounceIn();
+  @include animated(.5s);
+}
+.bounchOut{
+  @include bounceOut();
+  @include animated(.5s);
+}
+/*.fadeIn{
+  @include fadeIn();
+  @include animated(.5s);
+}
+.fadeOut{
+  @include fadeOut();
+  @include animated(.5s);
+}
+.fadeInBox{
+  @include fadeInBox;
+  @include animated(.5s);
+}
+.fadeOutBox{
+  @include fadeOutBox;
+  @include animated(.5s);
+}
+.fadeInUp{
+  @include fadeInUp;
+  @include animated(.6s);
+}
+.rollIn{
+  @include rollIn;
+  @include animated(.4s);
+}*/

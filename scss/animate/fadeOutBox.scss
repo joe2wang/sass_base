@@ -1,0 +1,26 @@
+@-webkit-keyframes fadeOutBox {
+	0% {opacity: 0.7;}
+	100% {opacity: 0;}
+}
+
+@-moz-keyframes fadeOutBox {
+	0% {opacity: 0.7;}
+	100% {opacity: 0;}
+}
+
+@-o-keyframes fadeOutBox {
+	0% {opacity: 0.7;}
+	100% {opacity: 0;}
+}
+
+@keyframes fadeOutBox {
+	0% {opacity: 0.7;}
+	100% {opacity: 0;}
+}
+
+@mixin fadeOutBox {
+	-webkit-animation-name: fadeOutBox;
+	-moz-animation-name: fadeOutBox;
+	-o-animation-name: fadeOutBox;
+	animation-name: fadeOutBox;
+}
